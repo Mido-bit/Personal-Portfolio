@@ -70,6 +70,7 @@ a, a:link, a::after, a:active, a:hover{
     height: 90vh; 
 }
 .intro{
+    color: white;
     padding: 11% 0 0 30%;
 }
 .intro h1{
@@ -109,6 +110,7 @@ a, a:link, a::after, a:active, a:hover{
     transform: scale(1.05);
 }
 .sec-2{
+    color: white;
     background: rgb(21, 21, 21);
 }
 .sub1{
@@ -173,6 +175,7 @@ hr{
     width: 25%;
 }
 .sec-3{
+    color: white;
     background: rgb(21, 21, 21);
 }
 .faded-services{
