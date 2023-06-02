@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --blue: rgb(0, 121, 208);
+}
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: red dashed 1px; */
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: 2rem ;
+    background-color: rgb(1, 0, 16);
+    align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5%;
+    color: white;
+    background-color: var(--blue);
+    border: none 3px white;
+    border-radius: 50%;
+
+}
+.logo{
+    margin: 0 15%;
+    display: flex;
+}
+.name{
+    color: white;
+}
+.list{
+    list-style-type: none;
+}
+.navbar__links{
+    display: flex;
+    gap: 4%;
+    color: white;
+    padding: 1% 0;
+}
+.navbar__links li:nth-child(7){
+    margin: 0 2%;
+}
+.navbar__links li:last-child{
+    color: var(--blue);
+    flex-shrink: 0;
+}
+a, a:link, a::after, a:active, a:hover{
+    color: white;
+    text-decoration: none;
+}
+.sec-1{
+    background: url(./images/wallpaperflare.com_wallpaper2.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh; 
+}
+.intro{
+    padding: 11% 0 0 30%;
+}
+.intro h1{
+    font-size: 6rem;
+}
+.intro h5{
+    font-size: 2rem;
+}
+.sec-1 img{
+    width: 375px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(90.5%, -40%);
+    z-index: 1;
+    border-radius: 10px;
+    
+}
+.intro h4{
+    font-size: 3rem;
+    margin-top: 2%;
+}
+.intro button, .sec-2 button{
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    border-style: none;
+    padding: 1.5rem 3rem;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 30px;
+    transition: all ease-in-out 10ms;    
+}
+.intro button:hover, .sec-2 button:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+.sec-2{
+    background: rgb(21, 21, 21);
+}
+.sub1{
+    text-align: center;
+    opacity: 0.03;
+    font-size: 10rem;
+    z-index: 1;
+}
+.sub2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 559%);
+    text-align: center;
+    font-size: 5rem;
+    z-index: 2;
+}
+hr{
+    color: var(--blue);
+    background-color: var(--blue);
+    width: 7%;
+    margin: auto;
+    box-shadow: 100px 0 black, -100px 0 black;
+    height: 3px;
+}
+.sec-2 img{
+    width: 544px;
+    height: 405px;
+    border-radius: 10px;
+}
+.aboutMe-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% ;
+    gap: 2%;
+}
+.list-intro li{
+    list-style-type: none;
+    display: flex;
+}
+.list-intro .category{
+    width:20%;
+}
+.rightSide h1{
+    font-size: 3rem;
+}
+.rightSide{
+    height: 66vh;
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rightSide p{
+    font-size: 2rem;
+}
+.rightSide ul{
+    font-size: 1.5rem;
+}
+.sec-2 button{
+    width: 25%;
+}
+.sec-3{
+    background: rgb(21, 21, 21);
+}
+.faded-services{
+    transform: translate(-50%, 1650%);
+}
+.services-content img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.services-content{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    gap: 2%;
+}
+.service-card{
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 85);
+    margin-bottom: 2%;
+    padding: 1%;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-card h1{
+    font-size: 2.5rem;
+}
+.service-card p{
+    font-size: 2rem;
+}
